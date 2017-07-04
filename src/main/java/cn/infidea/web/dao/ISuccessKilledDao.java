@@ -14,7 +14,7 @@ public interface ISuccessKilledDao {
      * @param userPhone
      * @return
      */
-    int insertSucessKill(long seckillId,long userPhone);
+    int insertSuccessKill(long seckillId,long userPhone);
 
     /**
      * 通过id查询购买明细并返回带seckill对象
